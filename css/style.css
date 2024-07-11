@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#soundboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.sound-button {
+    width: 100px;
+    height: 100px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.sound-button:hover {
+    transform: scale(1.1);
+}
